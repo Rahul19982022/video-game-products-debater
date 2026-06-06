@@ -16,9 +16,8 @@ This project moves beyond standard LLM wrappers by implementing a custom, rigoro
 
 ## 📁 Repository Structure
 
+* `ingest_data.py` - A ingestion script streaming the massive raw Amazon Reviews dataset (JSONL) directly from the Hugging Face CDN into local storage.
 * `/notebooks/` - Contains the Jupyter notebooks for raw data processing, RoBERTa sentiment classification, and FAISS index generation.
-* `ingest_data.py` - Core scripts for handling the Parquet datasets.
-* `single_product_analysis.py` / `comparison.py` - Standalone backend modules for evaluating the BGE-M3 extraction logic.
 * `app_huggingface.py` - The production Streamlit interface configured for Hugging Face deployment.
 
 ## 🚀 Note on Data Storage
