@@ -1,0 +1,17 @@
+# Environments
+venv/
+env/
+__pycache__/
+notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Data Files (Hosted on Hugging Face instead)
+data/
+*.parquet
+*.index
+*.csv
+*.json
+*.jsonl
