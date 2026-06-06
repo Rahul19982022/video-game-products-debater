@@ -23,3 +23,10 @@ This project moves beyond standard LLM wrappers by implementing a custom, rigoro
 ## 🚀 Note on Data Storage
 
 To maintain a lightweight repository, the massive `.parquet` datasets and the `.index` FAISS files are **not** hosted on GitHub. They are stored natively in a Hugging Face Dataset repository, where the live Streamlit app dynamically streams them into memory upon initialization.
+
+## 📊 Dataset Attribution
+
+The raw data processed in this pipeline is sourced from the **Amazon Reviews 2023** dataset, provided by the McAuley Lab. 
+
+* **Documentation & Source:** [Amazon Reviews 2023](https://amazon-reviews-2023.github.io/)
+* **Citation:** This project utilizes the "Video Games" sub-category metadata and user review datasets. Full credit for the data collection and curation belongs to the original authors. 
