@@ -1,0 +1,15 @@
+# Development & Notebook Environment
+jupyter
+pandas
+numpy
+pyarrow
+
+# Machine Learning & NLP
+sentence-transformers
+torch
+faiss-cpu  # Switch to faiss-gpu if you run the embeddings on your RTX 4060
+transformers
+
+# APIs & Secrets
+groq
+python-dotenv
